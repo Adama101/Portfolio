@@ -123,49 +123,123 @@ nav ul li a:hover::after {
     padding-right: 10px;
     font-family: "poppins",sans-serif;
 }
+
 #Portfolio {
-    padding: 20px 20px;
-    background-color: grey;
+    padding: 30px;
+    background-color: rgb(177, 174, 174);
+}
+.Portfolio-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between
 }
-.Portfolio-header{
-    font-size: 50px;
-    font-weight: 100px;
-    text-align: center;
-    padding: 20px;
-}
+
 .colunm-3{
-    flex-basis: 30%;
-    size: 40px;
-    border-radius: 30px;
+    width: 50%;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "poppins",sans-serif;
+    font-size: medium;
 }
+.sub-title-3 {
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 10px;
+    font-family: "poppins",sans-serif;
+}
+  
 .colunm-4{
-    flex-basis: 30%;
-    size: 40px;
-    border-radius: 30px;
+    width: 50%;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "poppins",sans-serif;
+    font-size: medium;
 }
-.about-Kuringo{
-    font-size: 15px;
+.sub-title-4 {
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 10px;
+    font-family: "poppins",sans-serif;
 }
-.about.JFIN {
-    font-size: 15px;
+.Web-img{
+    border-radius: 50px;
+    
+}
+.Mobile-img{
+    border-radius: 50px;
+}
+.title-1{
+    text-align: center;
+    font-family:"poppins",sans-serif;
+    font-size: 20px;
+}
+.title-2{
+    text-align: center;
+    font-family:"poppins",sans-serif;
+    font-size: 20px;
+}
+.Portfolio-title{
+    text-align: center;
+    font-family:"poppins",sans-serif;
+    font-size: 50px; 
+}
+.Web-text{
+    text-align: left;
+}
+.UX-text{
+    text-align: right;
 }
 #Skills {
     background-color: grey;
+    color: white;
+    margin-top: 1px;
+    font-size: 20px;
+    font-weight: 50px;
+    text-align: center;
+    padding-top: 1px;
+    font-family: "poppins",sans-serif;
+}
+.Skills-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Skills-title {
+    font-size: 50px;
+}
+.Skills-title-1{
+    font-size: 20px;
+}
+.Skills-header-1{
+    font-size: 15px;
+}
+.Skills-title-2{
+    font-size: 20px;
+}
+.Skills-title-2-words{
+    font-size: 15px;
+}
+.Skills-title-3{
+    font-size: 20px;
+}
+.Skills-header-3-words{
+    font-size: 15px;
+}
+#Contact {
     color: black;
-    font-size: 30px;
-    font-weight: 100px;
+    font-size: 20px;
+    font-weight: 50px;
     text-align: center;
     padding-top: 10px;
     font-family: "poppins",sans-serif;
 }
-#Contact {
+.Banner-img{
+    border-radius: 25px;
+    size: 30px;
+}
+.footer{
     color: black;
-    font-size: 30px;
-    font-weight: 100px;
     text-align: center;
-    padding-top: 10px;
-    font-family: "poppins",sans-serif;
 }
