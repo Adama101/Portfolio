@@ -42,6 +42,7 @@ nav ul li a {
     font-size: 20px;
     color: black;
     position: relative;
+    font-weight: bold;
 }
 nav ul li a::after {
     content: "";
@@ -96,7 +97,6 @@ nav ul li a:hover::after {
 .colunm-2{
     width: 100%;
     border-radius: 20px;
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-basis: 65%;
@@ -109,10 +109,63 @@ nav ul li a:hover::after {
 }
 .about-image{
     size: 30px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 .sub-title {
     font-size: 50px;
     font-weight: 400px;
     padding-right: 10px;
+    font-family: "poppins",sans-serif;
+}
+.sub-title-2 {
+    font-size: 20px;
+    font-weight: 100px;
+    padding-right: 10px;
+    font-family: "poppins",sans-serif;
+}
+#Portfolio {
+    padding: 20px 20px;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.Portfolio-header{
+    font-size: 50px;
+    font-weight: 100px;
+    text-align: center;
+    padding: 20px;
+}
+.colunm-3{
+    flex-basis: 30%;
+    size: 40px;
+    border-radius: 30px;
+}
+.colunm-4{
+    flex-basis: 30%;
+    size: 40px;
+    border-radius: 30px;
+}
+.about-Kuringo{
+    font-size: 15px;
+}
+.about.JFIN {
+    font-size: 15px;
+}
+#Skills {
+    background-color: grey;
+    color: black;
+    font-size: 30px;
+    font-weight: 100px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: "poppins",sans-serif;
+}
+#Contact {
+    color: black;
+    font-size: 30px;
+    font-weight: 100px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: "poppins",sans-serif;
 }
